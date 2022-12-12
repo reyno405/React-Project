@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { validateEmail } from "../../utils/helper";
+import { validateEmail } from "../utils/helper";
 
 function ContactForm() {
   const [formState, setFormState] = useState({
@@ -41,7 +41,7 @@ function ContactForm() {
   return (
     <section class="justify-content-center" id="contact-section">
       <h1 data-testid="h1tag" className="contact">
-        contact: josephDeWoody
+        contact:
       </h1>
       <hr></hr>
       <form class="justify-content-center" id="contact-form">
